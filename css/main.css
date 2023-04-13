@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient( rgb(0,0,10) ,rgb(64, 66, 88) );
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container{
+    height: 85%;
+    width: 80%;
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    
+}
+
+nav .logo{
+    color:white ;
+    text-decoration: none;
+    font-size: 32px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    margin: 0 6px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+nav ul li a:hover{
+    color: rgb(20, 108, 148);
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+.content .text{
+    color: white;
+    height: 70%;
+}
+
+.content .text h2{
+    height: auto;
+    width: 40%;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.content .text p{
+   
+    line-height: 25px;
+    margin: 10px;
+    letter-spacing: 1px;
+    width: 70%;
+    height: 40%;
+}
+
+
