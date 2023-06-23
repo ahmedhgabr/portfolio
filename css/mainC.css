@@ -29,6 +29,11 @@ img,svg{
     display: block;
 }
 
+a{
+    color: var(--clr-green);
+    text-decoration: none;
+}
+
 html{
     color-scheme: dark;
 }
@@ -51,3 +56,9 @@ body{
     white-space: nowrap;
     width: 1px;
   }
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 15rem auto;
+
+}
