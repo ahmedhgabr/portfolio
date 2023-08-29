@@ -302,6 +302,16 @@ header
   color: #1A1A1B;
 }
 
+.logo{
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.logo:hover{
+  color: #37AA9C;
+}
+
 .background-header .main-nav .nav li:hover a {
   color: #37AA9C;
 }
